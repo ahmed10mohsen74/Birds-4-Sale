@@ -7,7 +7,7 @@ menuButton.addEventListener('click', () =>
 });
 const data = [
     { "name": "name1", "image": "images/download (1).jpeg", "info": "this is info", "price": "23 EG", "phone": "01279734467" },
-    { "name": "name2", "image": "images/download (2).jpeg", "info": "this is info", "price": "45 EG", "phone": "01272431433" },
+    { "name": "name2", "image": "images/download (2).jpeg", "info": "this is info", "price": "45 EG", "phone": "01279734467" },
     { "name": "name3", "image": "images/download.jpeg", "info": "this is info", "price": "45 EG", "phone": "01279734467" },
     { "name": "name4", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC29BrQRe9VNx1jC6zKNlVEMoFI521lJYySA&s", "info": "this is info", "price": "45 EG", "phone": "01279734467" },
     { "name": "name5", "image": "https://www.pigeontype.info/wp-content/uploads/2021/02/otati-pigeons-egyptian-swift.jpg", "info": "this is info", "price": "45 EG", "phone": "01279734467" },
