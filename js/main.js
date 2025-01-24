@@ -24,14 +24,14 @@ data.forEach((item) =>
     const itemDev = document.createElement('div');
     itemDev.classList.add('item');
     itemDev.innerHTML = `
-        <img src="${item.image}" alt="${item.name}" style="width: 150px; height: 150px; border-radius: 10px;">
+        <img src="${item.image}" alt="${item.name}" >
         <h3 class="hhh">${item.name}</h3>
         <p>${item.info}</p>
         <p><strong>Price:</strong> ${item.price}</p>
         <a 
           href="https://wa.me/${phoneInternational}?text=مرحبًا! أرغب في معرفة المزيد عن ${item.name}." 
           target="_blank" 
-          style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #25D366; color: white; text-decoration: none; border-radius: 5px;">
+          style="    display: flex;justify-content: center;margin-top: 10px; padding: 10px 20px; background-color: #25D366; color: white; text-decoration: none; border-radius: 5px;">
           أرسل رسالة على واتساب
         </a>
     `;
